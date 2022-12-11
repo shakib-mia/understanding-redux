@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { useDispatch } from 'react-redux';
 import { decrement, increment } from './features/counter/counterSlice';
@@ -12,7 +11,6 @@ function App() {
       <Data />
       <button aria-label="Increment value" onClick={() => dispatch(increment())}>add</button>
       <button aria-label="Decrement value" onClick={() => dispatch(decrement())}>subtract</button>
-
     </>
   );
 }
